@@ -68,7 +68,7 @@ const LeftMenu = ({spanishContent,englishContent,english}) => {
             "linear(to-br, #7FB3D5, blackAlpha.300)",
             "linear(to-br, blackAlpha.800, blackAlpha.200)"
             )}>
-              {english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.nevegacion}
+              {english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.navegacion}
           </DrawerHeader>
 
           <DrawerBody 

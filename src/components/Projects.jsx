@@ -74,7 +74,7 @@ const Projects = ({spanishContent,englishContent,english}) => {
               image={project2}
               alt="Project 2 Image - Threeline"
               text={english? spanishContent.proyectos.project2 : englishContent.projects.project2}
-              deploy="https://lucasmasini.github.io/threeline/"
+              deploy="https://threeline.vercel.app/index.html"
               repo="https://github.com/lucasmasini/threeline"
               icon={
                 <Stack direction="row" spacing={4} _dark>

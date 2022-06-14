@@ -28,7 +28,6 @@ const SpanishButton = ({ spanish }) => {
         <span>
           Español 
         </span>
-        <ViewIcon />
       </Stack>
     </Link>
   );

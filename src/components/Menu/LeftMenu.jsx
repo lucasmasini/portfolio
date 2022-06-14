@@ -66,7 +66,7 @@ const LeftMenu = ({spanishContent,englishContent,english}) => {
 
           <DrawerBody  background={'#2980B9'}>
             <Stack spacing={7} marginTop={4}>
-              <Stack direction="column" opacity="0.9" spacing={6} fontSize={'18px'}>
+              <Stack direction="column" opacity="1" spacing={6} fontSize={'18px'}>
                 <Link href="#home" w="fit-content">
                 {english? spanishContent.leftMenu.inicio : englishContent.leftMenu.inicio}
                 </Link>

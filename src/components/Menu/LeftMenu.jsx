@@ -62,9 +62,9 @@ const LeftMenu = ({spanishContent,englishContent,english}) => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton border={'1px solid grey'}/>
-          <DrawerHeader  background={'#2980B9'}>{english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.nevagacion}</DrawerHeader>
+          <DrawerHeader>{english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.nevagacion}</DrawerHeader>
 
-          <DrawerBody  background={'#2980B9'}>
+          <DrawerBody>
             <Stack spacing={7} marginTop={4}>
               <Stack direction="column" opacity="1" spacing={6} fontSize={'18px'}>
                 <Link href="#home" w="fit-content">

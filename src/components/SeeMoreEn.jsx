@@ -89,7 +89,7 @@ const SeeMoreEn = () => {
               image={project1}
               alt="Project 1 Image - My cake Website"
               text={`This is a website about a cake shop. Static web, no features`}
-              deploy=""
+              deploy="https://my-cake.vercel.app/"
               repo="https://github.com/lucasmasini/my_cake"
               icon={
                 <Stack direction="row" spacing={4}>

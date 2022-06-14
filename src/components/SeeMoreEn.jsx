@@ -122,7 +122,7 @@ const SeeMoreEn = () => {
               image={project2}
               alt="Project 2 Image - Threeline"
               text={`This is an e-commerce of Basketball and NBA. It has the basic functionality`}
-              deploy="https://lucasmasini.github.io/threeline/"
+              deploy="https://threeline.vercel.app/index.html"
               repo="https://github.com/lucasmasini/threeline"
               icon={
                 <Stack direction="row" spacing={4} _dark>

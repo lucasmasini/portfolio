@@ -41,7 +41,7 @@ const Projects = ({spanishContent,englishContent,english}) => {
           image={project1}
           alt="Project 1 Image - My cake Website"
           text={english? spanishContent.proyectos.project1 : englishContent.projects.project1}
-          deploy=""
+          deploy="https://my-cake.vercel.app/"
           repo="https://github.com/lucasmasini/my_cake"
           icon={
             <Stack direction="row" spacing={4}>

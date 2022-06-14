@@ -89,7 +89,7 @@ const SeeMoreSp = () => {
                             image={project1}
                             alt="Project 1 Image - My cake Website"
                             text={`Esta es una web de pasteleria y postres. Es estatica, sin funcionalidades`}
-                            deploy=""
+                            deploy="https://my-cake.vercel.app/"
                             repo="https://github.com/lucasmasini/my_cake"
                             icon={
                                 <Stack direction="row" spacing={4}>

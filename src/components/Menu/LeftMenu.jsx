@@ -15,6 +15,7 @@ import {
   MenuList,
   Stack,
   useDisclosure,
+  useColorModeValue
 } from "@chakra-ui/react";
 
 import SpanishButton from "../LanguageLinks/SpanishButton";
@@ -62,9 +63,19 @@ const LeftMenu = ({spanishContent,englishContent,english}) => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton border={'1px solid grey'}/>
-          <DrawerHeader>{english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.nevegacion}</DrawerHeader>
+          <DrawerHeader 
+            bgGradient={useColorModeValue(
+            "linear(to-br, #7FB3D5, blackAlpha.300)",
+            "linear(to-br, blackAlpha.800, blackAlpha.200)"
+            )}>
+              {english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.nevegacion}
+          </DrawerHeader>
 
-          <DrawerBody>
+          <DrawerBody 
+            bgGradient={useColorModeValue(
+            "linear(to-br, #7FB3D5, blackAlpha.300)",
+            "linear(to-br, blackAlpha.800, blackAlpha.200)"
+            )}>
             <Stack spacing={7} marginTop={4}>
               <Stack direction="column" opacity="1" spacing={6} fontSize={'18px'}>
                 <Link href="#home" w="fit-content">

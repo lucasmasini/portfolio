@@ -65,8 +65,8 @@ const LeftMenu = ({spanishContent,englishContent,english}) => {
           <DrawerCloseButton border={'1px solid grey'}/>
           <DrawerHeader 
             bgGradient={useColorModeValue(
-            "#7FB3D5",
-            "blackAlpha.800"
+            "linear(to-br, #7FB3D5, #7FB3D5)",
+            "linear(to-br, blackAlpha.800, blackAlpha.800)"
             )}>
               {english? spanishContent.leftMenu.navegacion : englishContent.leftMenu.navegacion}
           </DrawerHeader>

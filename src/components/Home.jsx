@@ -1,7 +1,6 @@
 import React from "react";
 
 import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
-import { SiChakraui } from "react-icons/si";
 
 import {
   Stack,
@@ -23,7 +22,8 @@ import jsIcon from "./image/javascript-svgrepo-com.svg";
 import gitIcon from "./image/git-svgrepo-com.svg";
 import reactIcon from "./image/react-svgrepo-com.svg";
 import avatar from "./image/avatar.jpg";
-import curriculum from "./assets/LucasMasiniCV.pdf";
+import cvSpanish from "./assets/LucasMasiniCV.pdf";
+import cvEnglish from './assets/Lucas Masini CV english.pdf'
 import nodeIcon from './image/node-svgrepo-com.svg';
 import sassIcon from './image/sass-svgrepo-com.svg';
 import mysqlIcon from './image/mysql-logo-svgrepo-com.svg';
@@ -85,7 +85,7 @@ const Home = ({spanishContent,englishContent,english}) => {
             <Image src={gitIcon} width="50px" />
           </Stack>
           <Stack justifyContent="center" alignItems="center">
-            <Link href={curriculum} download={curriculum}>
+            <Link href={english? cvSpanish : cvEnglish} download={english? cvSpanish : cvEnglish}>
               <Button
                 variant={useColorModeValue("outline", "outline")}
                 colorScheme={useColorModeValue("black", "pink")}

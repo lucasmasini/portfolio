@@ -83,7 +83,7 @@ const English = () => {
             <ScrollToTop />
             <LeftMenu englishContent={englishContent} english={false}/>
             <Container
-              maxWidth={{ base: "100%", sm: "100%", md: "100%",lg:'1200px'}}
+              maxWidth={{ base: "100%", sm: "100%", md: "100%",lg:'1100px'}}
             >
               <Stack spacing={14}>
                 <Stack position="sticky">
@@ -97,7 +97,7 @@ const English = () => {
           </Box>
           <Box marginTop="100px" width="100%">
             <Container
-              maxWidth={{ base: "100%", sm: "100%", md: "100%", lg: "1200px"}}
+              maxWidth={{ base: "100%", sm: "100%", md: "100%", lg: "1100px"}}
             >
               <Projects englishContent={englishContent} english={false}/>
             </Container>
@@ -112,14 +112,14 @@ const English = () => {
         >
           <Box marginTop="0" width="100%">
             <Container
-              maxWidth={{ base: "100%", sm: "100%", md: "100%", lg: "1200px" }}
+              maxWidth={{ base: "100%", sm: "100%", md: "100%", lg: "1100px" }}
             >
               <About englishContent={englishContent} english={false}/>
             </Container>
           </Box>
           <Box marginTop={4} width="100%">
             <Container
-              maxWidth={{ base: "100%", sm: "100%", md: "100%", lg: "1200px" }}
+              maxWidth={{ base: "100%", sm: "100%", md: "100%", lg: "1100px" }}
             >
               <Stack justifyContent="space-between" paddingY={4}>
                 <Contact englishContent={englishContent} english={false} />

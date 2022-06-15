@@ -155,7 +155,7 @@ const SeeMoreEn = () => {
               image={project3}
               alt="Project 3 Image - HomeFood"
               text={`This is a food e-commerce in the style of PedidosYa or Rappi.`}
-              deploy="https://homeefood.herokuapp.com/"
+              deploy="https://home-food.vercel.app/"
               repo="https://github.com/lucasmasini/HomeFood"
               icon={
                 <Stack direction="row" spacing={4} _dark>
